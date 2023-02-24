@@ -1,15 +1,14 @@
 import React from 'react'
-import logo from '../images/'
+import logo from "../images/logo.svg";
 
 
 
 
 const Navbar = () => {
   return <div>
-    <nav className="navbar">
+<nav className="navbar">
   <div className="nav-center">
-    <div className="nav-header">
-      <img src="./images/logo.svg" className="nav-logo" alt="backroads" />
+    <img src= "./images/logo.svg" className="nav-logo" alt="backroads" />
       <button type="button" className="nav-toggle" id="nav-toggle">
         <i className="fas fa-bars"></i>
       </button>
@@ -19,7 +18,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <a href="#about" className="nav-link"> about </a>
+        <a href="#about" className="nav-link" rel="noopener noreferrer"> about </a>
       </li>
 
       <li>
@@ -34,24 +33,24 @@ const Navbar = () => {
     <ul className="nav-icons">
       <li>
         <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-          ><i className="fab fa-facebook"></i
+         rel="noopener noreferrer" ><i className="fab fa-facebook"></i
         ></a>
       </li>
       <li>
         <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-          ><i className="fab fa-twitter"></i
+         rel="noopener noreferrer" ><i className="fab fa-twitter"></i
         ></a>
       </li>
       <li>
         <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-          ><i className="fab fa-squarespace"></i
+         rel="noopener noreferrer" ><i className="fab fa-squarespace"></i
         ></a>
       </li>
     </ul>
   </div>
+  </nav>
   </div>
-</nav>
-</div>
+
 }
 
 export default Navbar
