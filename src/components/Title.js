@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Title = (word1, word2) => {
+
+const Title = ({word1, word2}) => {
   return (
     <div className="section-title">
     <h2>{word1} <span>{word2}</span></h2>
@@ -8,4 +9,4 @@ const Title = (word1, word2) => {
   )
 }
 
-export default Title
+export default Title;
