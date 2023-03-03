@@ -32,19 +32,10 @@ const Tours = () => {
           </div>
         </div>
       </article>
-        ),
-    })}
-    
-    
-    
+        );
+         })}
 
-    
-
- 
-  </div>
-</section>
-
-  )
-}
+</div>
+</section>)};
 
 export default Tours

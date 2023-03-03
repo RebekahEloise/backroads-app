@@ -7,7 +7,7 @@ const Services = () => {
     <section className="section services" id="services">
         <Title word1='our' word2='services'/>
         
-    <div className="section-center services-center">
+<div className="section-center services-center">
     {services.map((service)=>{
         const{id,icon,title, text} = service;
         return (
@@ -21,15 +21,11 @@ const Services = () => {
         </p>
       </div>
     </article>
+        );})}
+</div>
+</section>
+  )};
 
-    );
-    
-    </section>
-        );
-    })}
-
-   
-  
 
 
 export default Services

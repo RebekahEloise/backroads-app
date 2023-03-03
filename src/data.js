@@ -1,7 +1,7 @@
-import tour1 from  './images/tour1.jpg';
-import tour2 from  './images/tour2.jpg';
-import tour3 from  './images/tour3.jpg';
-import tour4 from  './images/tour4.jpg';
+import tour1 from  './images/tour-1.jpeg';
+import tour2 from  './images/tour-2.jpeg';
+import tour3 from  './images/tour-3.jpeg';
+import tour4 from  './images/tour-4.jpeg';
 
 
 
